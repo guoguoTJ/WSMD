@@ -2,7 +2,7 @@
 Discovery motifs on ChIP-seq datasets with WSMD
 =================================================
 
-Depends:
+Dependencies:
 -------
   * R ( ≥ 3.2.5 )
   * Matrix ( ≥ 1.2-6 )
