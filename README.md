@@ -1,5 +1,5 @@
 # WSMD
-Discovery motifs from ChIP-seq datasets with WSMD
+Discovery motifs on ChIP-seq datasets with WSMD
 =================================================
 
 Depends:
