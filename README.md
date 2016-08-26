@@ -11,8 +11,8 @@ Depends:
 
 R packages:
 -------------------------
-  * Linux binary package: WSMD_0.1.0_windows_binary.zip
-  * Windows binary package: WSMD_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
+  * Linux binary package: WSMD_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
+  * Windows binary package: WSMD_0.1.0_windows_binary.zip
   * Source package: WSMD_0.1.0.tar.gz
  
 Input and output examples:
