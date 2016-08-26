@@ -9,6 +9,12 @@ Depends:
   * Rcpp( ≥ 0.12.6 ）
   * Rmosek（≥ 7.1.2 ）
 
+R packages:
+-------------------------
+  * Linux binary package: WSMD_0.1.0_windows_binary.zip
+  * Windows binary package: WSMD_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
+  * Source package: WSMD_0.1.0.tar.gz
+ 
 Input and output examples:
 -------------------------
   * Inout sequence files: input_foreground_sequences.fasta, input_background_sequences.fasta
