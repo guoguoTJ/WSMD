@@ -18,7 +18,7 @@ R packages:
 Installation guides:
 -------------------------
   * Dowload mosek 7 from https://mosek.com/resources/downloads/legacy/version-7-1 and install it.
-  * Install Rmosek and other dependencies following http://rmosek.r-forge.r-project.org/.
+  * Install Rmosek for mosek 7 and other dependencies following http://rmosek.r-forge.r-project.org/.
   * Download and install WSMD R package.
     
 Usage guides:
