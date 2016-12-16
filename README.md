@@ -44,3 +44,5 @@ Input and output examples:
 -------------------------
   * Inout sequence files: input_foreground_sequences.fasta, input_background_sequences.fasta
   * Output motif file: output_motif.txt
+  
+If having any questions about WSMD packages, please feel free to contact hongbozhang0808@163.com
