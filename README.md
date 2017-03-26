@@ -8,12 +8,15 @@ Dependencies:
   * Matrix ( ≥ 1.2-6 )
   * Rcpp( ≥ 0.12.6 ）
   * Rmosek（≥ 7.1.2 ）
+  * seqLogo（≥ 1.36.0 ）
+  * ChIPpeakAnno（≥ 3.4.6 ）
+  * BSgenome.Hsapiens.UCSC.hg19（≥ 1.4.0 ）
 
 R packages:
 -------------------------
-  * Linux binary package: WSMD_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
-  * Windows binary package: WSMD_0.1.0_windows_binary.zip
-  * Source package: WSMD_0.1.0.tar.gz
+  * Linux binary package: WSMD_0.1.1_R_x86_64-pc-linux-gnu.tar.gz
+  * Windows binary package: WSMD_0.1.1_windows_binary.zip
+  * Source package: WSMD_0.1.1.tar.gz
   
 Installation guides:
 -------------------------
@@ -24,8 +27,9 @@ Installation guides:
 Usage guides:
 -------------------------
   * Load WSMD package before using it.
-  * WSMD offers a function named 'WSMD' to apply de novo motif discovery or motif optimization
-  * WSMD offers three evaluate functions named 'evaluate_PWM_AUC', 'evaluate_PWM_fishers_exact_test_P_value' and 'evaluate_PWM_MHG_P_value' to help users to assess the reported motifs.
+  * WSMD offers a function named 'WSMD' to apply de novo motif discovery or motif optimization.
+  * WSMD offers a function named 'peak2seq' to Extract foreground and background sequences from ChIP-seq peak file.
+  * WSMD offers three evaluate functions named 'evaluate_PWM_AUC', 'evaluate_PWM_fishers_exact_test_P_value' and 'evaluate_PWM_MHG_P_value' to help users to assess the reported motifs.
   * Details on using each function are given in the help documents of WSMD package. After successfully installing, users can access the help documents by running following scripts in R:
 
 ```r
@@ -35,6 +39,7 @@ help(package = "WSMD")
 # Or get the Description, Usage and Arguments information of each funciton directly by running
 library("WSMD")
 ?WSMD
+?peak2seq
 ?evaluate_PWM_AUC
 ?evaluate_PWM_fishers_exact_test_P_value
 ?evaluate_PWM_MHG_P_value
