@@ -27,9 +27,9 @@ Installation guides:
 Usage guides:
 -------------------------
   * Load WSMD package before using it.
-  * WSMD offers a function named 'WSMD' to apply de novo motif discovery or motif optimization.
+  * WSMD offers a function named 'WSMD' to apply de novo motif discovery or motif optimization.
   * WSMD offers a function named 'peak2seq' to Extract foreground and background sequences from ChIP-seq peak file.
-  * WSMD offers three evaluate functions named 'evaluate_PWM_AUC', 'evaluate_PWM_fishers_exact_test_P_value' and 'evaluate_PWM_MHG_P_value' to help users to assess the reported motifs.
+  * WSMD offers three evaluate functions named 'evaluate_PWM_AUC', 'evaluate_PWM_fishers_exact_test_P_value' and 'evaluate_PWM_MHG_P_value' to help users to assess the reported motifs.
   * Details on using each function are given in the help documents of WSMD package. After successfully installing, users can access the help documents by running following scripts in R:
 
 ```r
